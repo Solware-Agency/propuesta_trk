@@ -1,28 +1,28 @@
 import Card from "../Card";
-import { DollarSign, Calendar, Server, Wrench } from "lucide-react";
+import { DollarSign, Calendar, Smartphone, Repeat, Telescope } from "lucide-react";
 
 const SlidePricing = () => {
   const items = [
     {
       icon: DollarSign,
-      title: "Costo Total del Proyecto",
-      value: "$800 USD",
+      title: "Costo de Implementación Única",
+      value: "$3,000 USD - Incluye diseño, desarrollo, entrenamiento del agente Nadia, integración telefónica y pruebas completas.",
     },
     {
       icon: Calendar,
-      title: "Forma de Pago (3 cuotas)",
-      value:
-        "40% para iniciar el desarrollo ($320 USD); 40% veintiún días después del primer pago ($320 USD); 20% veintiún días después del segundo pago ($160 USD).",
-    },
-    {
-      icon: Server,
-      title: "Tecnología",
-      value: "Página web desarrollada con React + TypeScript, optimizada para rendimiento y SEO. Hosting y dominio no incluidos (pueden contratarse por separado).",
-    },
-    {
-      icon: Wrench,
       title: "Forma de Pago",
-      value: "Costo total del proyecto en Dólares Americanos.",
+      value:
+        "50% al iniciar el proyecto ($1,500 USD); 50% al entregar el agente en producción ($1,500 USD). Pagos por transferencia en USD o Bs. al tipo de cambio oficial del BCV.",
+    },
+    {
+      icon: Repeat,
+      title: "Costo Mensual de Mantenimiento",
+      value: "$250 USD mensuales - Incluye mantenimiento técnico del agente, actualización de contenido según necesidades, e informe mensual detallado de uso y comportamiento del cliente.",
+    },
+    {
+      icon: Smartphone,
+      title: "Otros Costos (Gestionados por Traki)",
+      value: "Compra de número local venezolano (VoIP) y plan de llamadas con proveedor de telefonía asociado. Solware no intermedia ni factura estos costos; se pagan directamente a la plataforma donde estará alojado el agente.",
     },
   ];
 
@@ -56,7 +56,23 @@ const SlidePricing = () => {
 
         <Card variant="glass" className="mt-8">
           <p className="text-center text-foreground/70 text-sm italic text-justify">
-            Esta solución le dará a BioSupplies la visibilidad y profesionalismo que necesita en su presencia digital, abriendo la puerta a futuras integraciones como entrega de resultados clínicos y automatización de citas.
+            Esta solución permitirá a Traki ofrecer una atención al cliente moderna, automática y escalable que reduce cargas operativas, mejora la experiencia del usuario y permite conocer mejor lo que los clientes están buscando.
+          </p>
+        </Card>
+
+        {/* Phase 2 Section */}
+        <Card variant="neuo" className="mt-6 border-l-4 border-l-secondary">
+          <div className="flex items-center gap-3 mb-3">
+            <Telescope className="w-6 h-6 text-secondary" />
+            <h3 className="text-secondary text-lg font-semibold">Fase 2 (Opcional y Futura)</h3>
+          </div>
+          <ul className="space-y-2 text-foreground/80 text-sm">
+            <li>• Integración con SAP para consultar inventario en tiempo real por SKU o categoría</li>
+            <li>• Agente disponible también por Telegram o WhatsApp (formato texto o voz)</li>
+            <li>• Flujos avanzados: consultas por código de barras, seguimiento de pedidos, catálogos automatizados</li>
+          </ul>
+          <p className="text-foreground/60 text-xs mt-3 italic">
+            En esta etapa se presentará una nueva propuesta técnica y económica.
           </p>
         </Card>
 

@@ -1,42 +1,41 @@
 import Card from "../Card";
-import { Palette, Smartphone, Navigation, Home, Info, Package, Handshake, MapPin, FileText } from "lucide-react";
+import { Brain, Mic, Database, Phone, Clock, MapPin, Tag, AlertCircle } from "lucide-react";
 
 const SlideWebsite = () => {
   const designFeatures = [
     {
-      icon: Palette,
-      text: "Diseño profesional alineado con el Manual de Identidad Corporativa de BioSupplies, comunicando confianza, precisión y trayectoria sólida en el sector.",
+      icon: Brain,
+      text: "Procesamiento de lenguaje natural avanzado que permite al agente Nadia comprender y responder consultas de forma conversacional y humana.",
     },
     {
-      icon: Smartphone,
-      text: "Layout completamente responsive optimizado para escritorio, tablet y dispositivos móviles.",
+      icon: Mic,
+      text: "Interacción por voz completamente natural con síntesis de voz de alta calidad, creando una experiencia de atención cálida y profesional.",
     },
     {
-      icon: Navigation,
-      text: "Navegación intuitiva con acceso directo a catálogo de productos, información comercial, cobertura nacional y formularios de contacto B2B.",
+      icon: Database,
+      text: "Entrenamiento inicial con información corporativa actualizada de Traki: horarios, ubicaciones, promociones y políticas de atención.",
     },
   ];
 
   const sections = [
-    { icon: Home, title: "Inicio", desc: "Presentación de la empresa" },
-    { icon: Info, title: "Nosotros", desc: "Trayectoria y valores" },
-    { icon: Package, title: "Catálogo", desc: "Productos y equipos" },
-    { icon: Handshake, title: "Aliados", desc: "Partners comerciales" },
-    { icon: MapPin, title: "Cobertura", desc: "Alcance nacional" },
-    { icon: FileText, title: "Contacto", desc: "Consultas comerciales" },
+    { icon: Phone, title: "Integración Telefónica", desc: "Conexión con línea VoIP" },
+    { icon: Clock, title: "Horarios", desc: "Consulta por tienda" },
+    { icon: MapPin, title: "Ubicaciones", desc: "Información de sedes" },
+    { icon: Tag, title: "Promociones", desc: "Eventos y ofertas" },
+    { icon: AlertCircle, title: "Limitación Fase 1", desc: "Sin conexión SAP" },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-6xl w-full space-y-8">
         <div className="text-center space-y-2 mb-8">
-          <h2 className="text-foreground">Características de la Página Web</h2>
-          <p className="text-secondary text-lg">Alcance conceptual de la propuesta</p>
+          <h2 className="text-foreground">Características del Agente de Voz Nadia</h2>
+          <p className="text-secondary text-lg">Fase 1 - Capacidades Iniciales</p>
         </div>
 
         {/* Design & UX Section */}
         <div className="space-y-6 mb-10">
-          <h3 className="text-primary text-center">Diseño y Experiencia de Usuario</h3>
+          <h3 className="text-primary text-center">Tecnología e Inteligencia Artificial</h3>
           <Card variant="glass" className="space-y-4">
             {designFeatures.map((feature, index) => {
               const Icon = feature.icon;
@@ -56,7 +55,7 @@ const SlideWebsite = () => {
 
         {/* Suggested Structure Section */}
         <div className="space-y-6">
-          <h3 className="text-primary text-center">Estructura Sugerida</h3>
+          <h3 className="text-primary text-center">Capacidades de Consulta</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {sections.map((section, index) => {
               const Icon = section.icon;
@@ -74,6 +73,13 @@ const SlideWebsite = () => {
             })}
           </div>
         </div>
+
+        {/* Important Note */}
+        <Card variant="glass" className="mt-8 border-l-4 border-l-primary">
+          <p className="text-foreground/90 text-sm leading-relaxed">
+            <span className="font-semibold text-primary">Nota Importante:</span> En esta fase, Nadia no estará conectada al sistema SAP de Traki, por lo que no podrá dar información sobre disponibilidad o inventario de productos específicos.
+          </p>
+        </Card>
 
         {/* Copyright */}
         <p className="text-center text-xs text-foreground/40 mt-8">

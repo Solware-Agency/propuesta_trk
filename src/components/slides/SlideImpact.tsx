@@ -1,27 +1,27 @@
 import Card from "../Card";
-import { Award, DollarSign, TrendingUp, Settings } from "lucide-react";
+import { TrendingDown, Smile, Clock, BarChart3 } from "lucide-react";
 
 const SlideImpact = () => {
   const impacts = [
     {
-      icon: Award,
-      title: "Credibilidad Profesional",
-      description: "Una presencia digital moderna fortalece la confianza de instituciones médicas, laboratorios y centros de investigación en la trayectoria de BioSupplies.",
+      icon: TrendingDown,
+      title: "Reducción de Carga Operativa",
+      description: "Libera al personal de tiendas de atender llamadas repetitivas, permitiéndoles enfocarse en la atención presencial y tareas de mayor valor agregado.",
     },
     {
-      icon: DollarSign,
-      title: "Mayor Visibilidad B2B",
-      description: "Posicionamiento en buscadores (SEO) especializado en el sector salud aumenta el alcance a clientes institucionales a nivel nacional.",
+      icon: Smile,
+      title: "Mejora en Experiencia del Cliente",
+      description: "Los clientes obtienen respuestas inmediatas y precisas a sus consultas sin tiempos de espera, mejorando significativamente su satisfacción.",
     },
     {
-      icon: TrendingUp,
-      title: "Acceso Comercial Facilitado",
-      description: "Instituciones médicas y laboratorios encuentran fácilmente información sobre productos, catálogo, cobertura y canales de contacto comercial.",
+      icon: Clock,
+      title: "Disponibilidad Total 24/7",
+      description: "Atención continua sin interrupciones, incluso fuera del horario comercial, sin costos adicionales de personal nocturno o fines de semana.",
     },
     {
-      icon: Settings,
-      title: "Base para Crecimiento",
-      description: "Plataforma escalable lista para futuras integraciones como sistema de pedidos online, área de aliados y portal de clientes.",
+      icon: BarChart3,
+      title: "Análisis de Comportamiento del Cliente",
+      description: "Informes mensuales detallados sobre las consultas más frecuentes permiten identificar oportunidades de mejora y optimizar la comunicación comercial.",
     },
   ];
 

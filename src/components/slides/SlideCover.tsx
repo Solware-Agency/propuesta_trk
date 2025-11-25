@@ -7,7 +7,7 @@ const SlideCover = () => {
 
         {/* Title */}
         <h1 className="text-foreground">
-          Web para BIOSUPPLIES
+          Agente de Voz IAM para TRAKI
         </h1>
 
         {/* Subtitle */}
@@ -17,9 +17,10 @@ const SlideCover = () => {
 
         {/* Description */}
         <p className="text-foreground/80 max-w-2xl mx-auto leading-relaxed text-justify">
-          Empresa venezolana de distribución de productos, equipos y materiales para patología
-          y diagnóstico biomédico. Una propuesta para establecer una presencia digital profesional
-          que fortalezca la confianza, mejore la visibilidad y facilite el contacto comercial.
+          Traki, una de las cadenas comerciales más importantes del país, recibe diariamente cientos de consultas
+          de clientes. Nuestra propuesta: implementar un agente inteligente de atención telefónica llamado "Nadia"
+          que responde de forma automática y natural a consultas sobre horarios, ubicaciones, promociones y productos,
+          disponible 24/7.
         </p>
 
         {/* Copyright */}

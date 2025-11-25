@@ -1,38 +1,38 @@
 import Card from "../Card";
-import { Target, Package, Mail, Search, Palette, Network } from "lucide-react";
+import { Phone, Clock, MapPin, Tag, Users, FileText } from "lucide-react";
 
 const SlideObjectives = () => {
   const objectives = [
     {
-      icon: Target,
-      text: "Diseñar una página web profesional y responsive (adaptada a móviles) que proyecte confianza, solidez y trayectoria en el sector.",
+      icon: Phone,
+      text: "Atención 24/7 por voz sin intervención humana, actuando como primer punto de contacto para consultas de clientes de Traki.",
     },
     {
-      icon: Package,
-      text: "Crear sección de catálogo digital para presentar productos, equipos y materiales descartables dirigidos a instituciones médicas y laboratorios.",
+      icon: Clock,
+      text: "Responder consultas sobre horarios de atención por tienda, adaptándose a la ubicación específica solicitada por el cliente.",
     },
     {
-      icon: Mail,
-      text: "Implementar formulario de contacto comercial para facilitar consultas de instituciones médicas, laboratorios y centros de investigación.",
+      icon: MapPin,
+      text: "Proporcionar información sobre ubicación y contacto de todas las sedes de Traki a nivel nacional de forma instantánea.",
     },
     {
-      icon: Search,
-      text: "Optimización SEO básica enfocada en búsquedas B2B del sector salud para mejorar visibilidad en buscadores.",
+      icon: Tag,
+      text: "Responder preguntas frecuentes sobre promociones, eventos especiales y campañas vigentes en las tiendas.",
     },
     {
-      icon: Palette,
-      text: "Diseño profesional alineado con el Manual de Identidad Corporativa de BioSupplies, comunicando integridad, excelencia y compromiso.",
+      icon: Users,
+      text: "Capacidad multillamada simultánea para atender múltiples clientes al mismo tiempo sin tiempos de espera.",
     },
     {
-      icon: Network,
-      text: "Plataforma escalable con posibilidad de integración futura de sistema de pedidos online y área de aliados comerciales."
+      icon: FileText,
+      text: "Generación de informes mensuales sobre interacciones, preguntas más frecuentes y comportamiento del cliente para optimización continua."
     },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
-        <h2 className="text-center text-foreground mb-8">Nuestra Propuesta</h2>
+        <h2 className="text-center text-foreground mb-8">Nuestra Propuesta: Agente de Voz "Nadia"</h2>
 
         <Card variant="glass" className="space-y-6">
           {objectives.map((objective, index) => {

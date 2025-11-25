@@ -3,27 +3,27 @@ import Card from "../Card";
 const SlideTimeline = () => {
   const phases = [
     {
-      week: "Día 1-2",
-      title: "Kickoff y Levantamiento de Contenido",
+      week: "Semana 1",
+      title: "Levantamiento de Información y Entrenamiento Inicial",
       activities:
-        "Reunión inicial, recopilación de requisitos, definición de servicios y especialidades a destacar.",
+        "Recopilación de información corporativa de Traki: horarios por tienda, ubicaciones, promociones vigentes, políticas de atención. Entrenamiento inicial del agente Nadia con esta base de conocimiento.",
     },
     {
-      week: "Día 3-6",
-      title: "Diseño del Layout Visual",
+      week: "Semana 2",
+      title: "Desarrollo y Pruebas del Agente",
       activities:
-        "Diseño de la estructura visual, paleta de colores, tipografías y validación con el cliente.",
+        "Desarrollo de los flujos conversacionales, configuración de síntesis de voz, pruebas internas de comprensión y respuesta, ajustes de personalidad y tono del agente.",
     },
     {
-      week: "Día 7-12",
-      title: "Desarrollo y Pruebas",
+      week: "Semana 3",
+      title: "Integración con Línea Telefónica",
       activities:
-        "Construcción de las páginas, integración de formularios, optimización SEO y pruebas de funcionamiento.",
+        "Configuración de la línea VoIP, integración del agente con el sistema telefónico, pruebas de llamadas reales, ajustes de calidad de audio y tiempos de respuesta.",
     },
     {
-      week: "Día 13-14",
-      title: "Revisión Final y Publicación",
-      activities: "Ajustes finales según feedback del cliente, optimización final y publicación del sitio web.",
+      week: "Semana 4",
+      title: "Ajustes Finales y Entrega",
+      activities: "Refinamiento según feedback de Traki, pruebas de stress con múltiples llamadas simultáneas, documentación y capacitación del equipo, puesta en producción.",
     },
   ];
 
@@ -31,7 +31,7 @@ const SlideTimeline = () => {
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
         <h2 className="text-center text-foreground mb-8">
-          Timeline de Desarrollo (2 semanas hábiles)
+          Timeline de Implementación (4 semanas)
         </h2>
 
         <div className="space-y-4">

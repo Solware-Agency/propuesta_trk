@@ -3,24 +3,19 @@ import Card from "../Card";
 const SlideDiagnosis = () => {
   const challenges = [
     {
-      title: "Sin Presencia Digital Efectiva",
+      title: "Saturación de Personal en Tiendas",
       description:
-        "Actualmente BioSupplies no cuenta con una presencia digital efectiva, representando una pérdida de visibilidad nacional e internacional en el sector de distribución de equipos y materiales para patología y diagnóstico biomédico.",
+        "El personal en tiendas debe atender constantemente llamadas repetitivas sobre horarios, ubicaciones y productos, lo que reduce su capacidad para atender clientes presenciales y afecta la eficiencia operativa.",
     },
     {
-      title: "Catálogo Sin Difusión Digital",
+      title: "Clientes Insatisfechos por Falta de Respuestas Oportunas",
       description:
-        "No existe una plataforma para presentar de forma clara y profesional el catálogo de productos, equipos y materiales descartables que distribuye la empresa.",
+        "Sin un canal automatizado de atención, muchos clientes no reciben respuestas inmediatas a sus consultas básicas, generando frustración y afectando la experiencia del cliente.",
     },
     {
-      title: "Sin Canal de Contacto Comercial",
+      title: "Pérdida de Oportunidades de Venta",
       description:
-        "No hay un canal digital propio para que instituciones médicas, laboratorios y centros de investigación puedan consultar sobre productos, realizar pedidos o solicitar información comercial.",
-    },
-    {
-      title: "Baja Visibilidad en Búsquedas",
-      description:
-        "Sin presencia web, se pierde relevancia en buscadores como Google (SEO) y los clientes potenciales no encuentran fácilmente información sobre productos, servicios de distribución o contacto comercial."
+        "La falta de información oportuna sobre horarios, ubicaciones y promociones ocasiona que potenciales clientes desistan de visitar las tiendas, representando pérdida directa de oportunidades comerciales.",
     },
   ];
 
