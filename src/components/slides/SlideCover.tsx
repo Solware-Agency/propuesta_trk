@@ -7,7 +7,7 @@ const SlideCover = () => {
 
         {/* Title */}
         <h1 className="text-foreground">
-          Agente de Voz IAM para TRAKI
+          Agente de Voz para TRAKI
         </h1>
 
         {/* Subtitle */}
