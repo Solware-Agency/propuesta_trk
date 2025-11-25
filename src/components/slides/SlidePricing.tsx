@@ -12,7 +12,7 @@ const SlidePricing = () => {
       icon: Calendar,
       title: "Forma de Pago",
       value:
-        "50% al iniciar el proyecto ($1,500 USD); 50% al entregar el agente en producción ($1,500 USD). Pagos por transferencia en USD o Bs. al tipo de cambio oficial del BCV.",
+        "50% al iniciar el proyecto ($1,500 USD); 50% al entregar el agente en producción ($1,500 USD). Pagos en Dólares Americanos.",
     },
     {
       icon: Repeat,
