@@ -4,7 +4,6 @@ import ProgressDots from "@/components/ProgressDots";
 import SwipeIndicator from "@/components/SwipeIndicator";
 import SlideCover from "@/components/slides/SlideCover";
 import SlideDiagnosis from "@/components/slides/SlideDiagnosis";
-import SlideObjectives from "@/components/slides/SlideObjectives";
 import SlideWebsite from "@/components/slides/SlideWebsite";
 import SlideImpact from "@/components/slides/SlideImpact";
 import SlideTimeline from "@/components/slides/SlideTimeline";
@@ -15,12 +14,11 @@ const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   const slideRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const totalSlides = 7;
+  const totalSlides = 6;
 
   const slides = [
     <SlideCover key="cover" />,
     <SlideDiagnosis key="diagnosis" />,
-    <SlideObjectives key="objectives" />,
     <SlideWebsite key="website" />,
     <SlideImpact key="impact" />,
     <SlideTimeline key="timeline" />,
