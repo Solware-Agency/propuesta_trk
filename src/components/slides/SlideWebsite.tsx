@@ -21,7 +21,7 @@ const SlideWebsite = () => {
     { icon: Phone, title: "Integración Telefónica", desc: "Conexión con línea VoIP" },
     { icon: Clock, title: "Horarios", desc: "Consulta por tienda" },
     { icon: MapPin, title: "Ubicaciones", desc: "Información de sedes" },
-    { icon: Tag, title: "Promociones", desc: "Eventos y ofertas" },
+    { icon: Tag, title: "Disponibilidad Genérica", desc: "Según árbol de categorías" },
     { icon: AlertCircle, title: "Limitación Fase 1", desc: "Sin conexión SAP" },
   ];
 
