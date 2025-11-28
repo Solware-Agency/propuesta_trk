@@ -15,13 +15,6 @@ const SlideCover = () => {
           Propuesta presentada por Solware
         </p>
 
-        {/* Description */}
-        <p className="text-foreground/80 max-w-2xl mx-auto leading-relaxed text-justify">
-          Traki, una de las cadenas comerciales más importantes del país, recibe diariamente cientos de consultas
-          de clientes. Nuestra propuesta: implementar un agente inteligente de atención telefónica llamado "Nadia"
-          que responde de forma automática y natural a consultas sobre horarios, ubicaciones, promociones y productos,
-          disponible 24/7.
-        </p>
 
         {/* Copyright */}
         <p className="text-center text-xs text-foreground/40 mt-8">
