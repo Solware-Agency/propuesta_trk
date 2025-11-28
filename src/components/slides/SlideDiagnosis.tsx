@@ -23,7 +23,7 @@ const SlideDiagnosis = () => {
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-6xl w-full space-y-8">
         <h2 className="text-center text-foreground mb-8">
-          Necesidad Detectada
+          Situación Actual
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
