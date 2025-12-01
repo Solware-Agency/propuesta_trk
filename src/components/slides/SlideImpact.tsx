@@ -1,13 +1,8 @@
 import Card from "../Card";
-import { TrendingDown, Smile, Clock, BarChart3 } from "lucide-react";
+import { Smile, Clock, BarChart3 } from "lucide-react";
 
 const SlideImpact = () => {
   const impacts = [
-    {
-      icon: TrendingDown,
-      title: "Reducción de Carga Operativa",
-      description: "Libera al personal de tiendas de atender llamadas repetitivas, permitiéndoles enfocarse en la atención presencial y tareas de mayor valor agregado.",
-    },
     {
       icon: Smile,
       title: "Mejora en Experiencia del Cliente",
