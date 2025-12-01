@@ -3,11 +3,6 @@ import Card from "../Card";
 const SlideDiagnosis = () => {
   const challenges = [
     {
-      title: "Saturación de Personal en Tiendas",
-      description:
-        "El personal en tiendas debe atender constantemente llamadas repetitivas sobre horarios, ubicaciones y productos, lo que reduce su capacidad para atender clientes presenciales y afecta la eficiencia operativa.",
-    },
-    {
       title: "Clientes Insatisfechos por Falta de Respuestas Oportunas",
       description:
         "Sin un canal automatizado de atención, muchos clientes no reciben respuestas inmediatas a sus consultas básicas, generando frustración y afectando la experiencia del cliente.",
