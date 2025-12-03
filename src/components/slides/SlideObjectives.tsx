@@ -30,7 +30,7 @@ const SlideObjectives = () => {
   ];
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
+    <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8 relative">
       <div className="max-w-4xl w-full space-y-8">
         <h2 className="text-center text-foreground mb-8">Nuestra Propuesta: Agente de Voz "Nadia"</h2>
 
@@ -55,6 +55,12 @@ const SlideObjectives = () => {
           © 2025 Solware
         </p>
       </div>
+
+      <img
+        src="/image.png"
+        alt="Info"
+        className="absolute bottom-4 right-4 w-48 h-auto sm:w-64 opacity-90"
+      />
     </div>
   );
 };
